@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>Document</title>
+</head>
+<body>
+    <h1>PHP</h1>
+    <ol>
+        <li><a href="base.php">Подключение файлов php</a></li>
+        <li><a href="variable.php">Переменные, операторы</a></li>
+        <li><a href="conditions.php">Условия</a></li>
+    </ol>
+</body>
+</html>
