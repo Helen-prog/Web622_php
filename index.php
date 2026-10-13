@@ -10,6 +10,9 @@
         <li><a href="base.php">Подключение файлов php</a></li>
         <li><a href="variable.php">Переменные, операторы</a></li>
         <li><a href="conditions.php">Условия</a></li>
+        <li><a href="arrays.php">Массивы</a></li>
+        <li><a href="functions.php">Функции</a></li>
+        <li><a href="server.html">Сервер</a></li>
     </ol>
 </body>
 </html>

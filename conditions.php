@@ -126,9 +126,65 @@ echo $operation; */
 }
 echo $result; */
 
-match (8.0){  // 8.0 === "8.0" 
-    "8.0" => $result = "строка",
-    8.0 => $result = "число"
-};
+// match (8.0){  // 8.0 === "8.0" 
+//     "8.0" => $result = "строка",
+//     8.0 => $result = "число"
+// };
 
-echo $result;
+// echo $result;
+
+/* for($i = 1; $i < 10; $i++){
+    echo "Квадрат числа $i равен " . $i * $i . "<br>";
+} */
+/* $i = 5;
+for(; $i < 10;){
+    echo "$i<br>";
+    $i++;
+} */
+
+// for ($i = 1, $j = 1; $i + $j < 10; $i++, $j += 2) {  // $i = 4, $j = 7
+//     echo "$i + $j = " . $i + $j . "<br>";
+// }
+
+// for($i = 1; $i < 10; $i++):
+//     echo "Квадрат числа $i равен " . $i * $i . "<br>";
+// endfor;
+
+/* $counter = 1;
+while($counter < 10){
+    echo $counter * $counter . "<br>";
+    $counter++;
+} */
+
+// $counter = 1;
+// while($counter < 10):
+//     echo $counter * $counter . "<br>";
+//     $counter++;
+// endwhile;
+
+// $counter = 1;
+// do{
+//     echo $counter * $counter . "<br>";
+//     $counter++;
+// } while($counter < 10);
+
+// for($i = 1; $i < 10; $i++){
+//     $result = $i * $i;
+//     if ($result > 25){
+//         break;
+//     }
+//     if($i == 3){
+//         continue;
+//     }
+//     echo "Квадрат числа $i равен $result <br>";
+// }
+
+echo "<table border='1'>";
+for($i = 1; $i < 10; $i++){
+    echo "<tr>";
+    for($j = 1; $j < 10; $j++){
+        echo "<td>" . $i * $j . "</td>";
+    }
+    echo "</tr>";
+}
+echo "</table>";
