@@ -13,6 +13,7 @@
         <li><a href="arrays.php">Массивы</a></li>
         <li><a href="functions.php">Функции</a></li>
         <li><a href="server.html">Сервер</a></li>
+        <li><a href="str.php">Строки</a></li>
     </ol>
 </body>
 </html>

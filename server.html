@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        span {color:red}
+    </style>
 </head>
 <body>
-    <h2>Анкета</h2>
+    <h2>Загрузить файл</h2>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="uploads[]"><br>
+        <input type="file" name="uploads[]"><br>
+        <input type="file" name="uploads[]"><br>
+        <input type="submit" value="Загрузить">
+    </form>
+    <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
+        Выберите файл: <input type="file" name="filename" size="10"><br><br>
+        <input type="submit" value="Загрузить">
+    </form> -->
+    <!-- <h2>Анкета</h2>
     <form action="check.php" method="POST">
         <p>
-            <label for="name">Ваше имя: <br>
+            <label for="name">Ваше имя: <span>*</span><br>
                 <input type="text" name="firstname" id="name">
             </label>
         </p>
-        <p>Форма обучения: <br>
+        <p>Форма обучения: <span>*</span><br>
             <label for="full-time">
                 <input type="radio" name="eduform" value="очно" id="full-time"> очно
             </label> <br>
@@ -20,6 +34,26 @@
                 <input type="radio" name="eduform" value="заочно" id="part-time"> заочно
             </label>
         </p>
+        <p>Требуется общежитие: <br>
+            <label for="hostel">
+                <input type="checkbox" name="hostel" id="hostel"> Да
+            </label>
+        </p>
+        <p>Выберите курсы <span>*</span><br>
+            <select name="courses[]" size="5" multiple>
+                <option value="React">React</option>
+                <option value="PHP">PHP</option>
+                <option value="HTML">HTML</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </p>
+        <p>Краткий комментарий: <span>*</span><br>
+            <label for="comment">
+                <textarea name="comment" id="comment" maxlength="200"></textarea>
+            </label>
+        </p>
+        <input type="submit" value="Отправить"> -->
         <!-- <p>Имя: <input type="text" name="name"></p>
         <p>Пароль: <input type="password" name="psw"></p>
         <p>Возраст: <input type="number" name="age"></p>
@@ -47,6 +81,6 @@
         </p>
 
         <p><input type="submit" value="Отправить"></p> -->
-    </form>
+    <!-- </form> -->
 </body>
 </html>
