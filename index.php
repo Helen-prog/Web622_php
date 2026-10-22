@@ -14,6 +14,7 @@
         <li><a href="functions.php">Функции</a></li>
         <li><a href="server.html">Сервер</a></li>
         <li><a href="str.php">Строки</a></li>
+        <li><a href="oop.php">ООП</a></li>
     </ol>
 </body>
 </html>
