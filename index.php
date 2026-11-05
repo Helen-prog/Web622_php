@@ -15,6 +15,7 @@
         <li><a href="server.html">Сервер</a></li>
         <li><a href="str.php">Строки</a></li>
         <li><a href="oop.php">ООП</a></li>
+        <li><a href="files.php">Файлы</a></li>
     </ol>
 </body>
 </html>

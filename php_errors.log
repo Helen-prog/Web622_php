@@ -1,0 +1,6 @@
+[2026-10-25 10:00:05] php.INFO: Starting user registration process. {"username":"johndoe"} []
+[2026-10-25 10:00:06] php.WARNING: MySQL connection retry #1... [] []
+[2026-10-25 10:00:08] php.ERROR: Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/src/Database.php:24 {"exception":"[object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /var/www/html/src/Database.php:24)"} []
+[2026-10-25 10:01:15] php.CRITICAL: League\Flysystem\UnableToWriteFile: Unable to write file at location: uploads/avatar.png {"exception":"[object] (League\\Flysystem\\UnableToWriteFile(code: 0): Unable to write file at location: uploads/avatar.png at /var/www/html/vendor/league/flysystem/src/UnableToWriteFile.php:24)"} []
+[2026-10-25 10:02:40] php.ERROR: E_USER_ERROR: Failed to allocate memory for image processing in /var/www/html/src/ImageProcessor.php on line 58 [] []
+[2026-10-25 10:03:00] php.INFO: Memory usage script execution completed. {"memory_peak_mb":12.5} []
